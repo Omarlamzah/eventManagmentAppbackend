@@ -1,0 +1,841 @@
+- 21:56:57.188 INFO: --------------------------------------------------------
+- 21:56:57.203 INFO: Started application
+- 21:56:57.203 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 21:56:57.219 INFO: Log level = DEBUG4
+- 21:56:57.219 INFO: Starting Mongoose 3.9c web server
+- 21:56:57.219 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 21:56:57.219 INFO: Index files: index.html,index.php
+- 21:56:57.219 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 21:56:57.219 INFO: CGI pattern: **.php$
+- 21:56:57.235 INFO: Hide files patterns: 
+- 21:56:57.250 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:56:57.266 INFO: Web server url: http://127.0.0.1:65365/
+- 21:56:57.266 INFO: remote_debugging_port = 52650
+- 21:56:57.266 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=52650
+- 21:56:57.422 DEBUG: App::OnContextInitialized()
+- 21:56:57.422 DEBUG: Window max width/height = 1286/680
+- 21:56:57.438 DEBUG: GetBrowserWindow(): not found, hwnd = 1837318
+- 21:56:57.438 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:56:57.453 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:56:57.453 DEBUG: StoreBrowserWindow(): hwnd = 1837318
+- 21:56:57.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=DFC81257351EDEBACC67CB2FDA73E128 --mojo-platform-channel-handle=1820 /prefetch:2
+- 21:56:58.578 DEBUG: ClientHandler::OnAfterCreated()
+- 21:56:58.578 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:56:58.610 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:56:58.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=00B872974ADE18E41E72C476B5BE0A32 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=00B872974ADE18E41E72C476B5BE0A32 --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[0327/215658.333:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:56:58.234 DEBUG: OnBrowserCreated()
+- 21:57:00.610 INFO: GET 200 /style.css
+- 21:57:00.625 INFO: GET 200 /
+- 21:57:00.875 DEBUG: OnContextCreated()
+- 21:57:00.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65365/
+- 21:57:03.063 DEBUG: WM_DESTROY
+- 21:57:03.063 DEBUG: RemoveBrowserWindow(): hwnd = 1837318
+- 21:57:03.063 INFO: Stopping Mongoose web server
+- 21:57:03.063 DEBUG: Mongoose webserver stopped immediately
+- 21:57:03.094 DEBUG: OnBeforeClose() hwnd=1706362
+- 21:57:03.094 DEBUG: RemoveBrowserWindow(): hwnd = 1706362
+- 21:57:03.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1706362
+- 21:57:03.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:57:03.094 DEBUG: Calling CefQuitMessageLoop()
+- 21:57:03.172 INFO: Ended application
+- 21:57:03.188 INFO: --------------------------------------------------------
+- 22:06:39.157 INFO: --------------------------------------------------------
+- 22:06:39.172 INFO: Started application
+- 22:06:39.188 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:06:39.188 INFO: Log level = DEBUG4
+- 22:06:39.203 INFO: Starting Mongoose 3.9c web server
+- 22:06:39.203 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\wwwzz
+- 22:06:39.203 INFO: Index files: index.html,index.php
+- 22:06:39.203 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:06:39.203 INFO: CGI pattern: **.php$
+- 22:06:39.203 INFO: Hide files patterns: 
+- 22:06:39.203 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:06:39.219 INFO: Web server url: http://127.0.0.1:49188/
+- 22:06:39.235 INFO: remote_debugging_port = 61659
+- 22:06:39.235 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=61659
+- 22:06:39.375 DEBUG: App::OnContextInitialized()
+- 22:06:39.375 DEBUG: Window max width/height = 1286/680
+- 22:06:39.375 DEBUG: GetBrowserWindow(): not found, hwnd = 1444206
+- 22:06:39.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:06:39.391 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:06:39.407 DEBUG: StoreBrowserWindow(): hwnd = 1444206
+- 22:06:39.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=F8C6166DC1E49D653C0F84AEF2D5D713 --mojo-platform-channel-handle=1804 /prefetch:2
+- 22:06:39.516 DEBUG: ClientHandler::OnAfterCreated()
+- 22:06:39.532 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:06:39.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:06:39.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B242794FE77A0F0E5BEC8C34AE11F21C --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B242794FE77A0F0E5BEC8C34AE11F21C --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[0327/220639.826:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:06:39.109 DEBUG: OnBrowserCreated()
+- 22:06:41.969 INFO: GET 404 /
+- 22:06:41.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49188/
+- 22:06:56.797 DEBUG: OnBeforeClose() hwnd=854510
+- 22:06:56.797 DEBUG: RemoveBrowserWindow(): hwnd = 854510
+- 22:06:56.797 DEBUG: GetBrowserWindow(): not found, hwnd = 854510
+- 22:06:56.797 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:07:02.157 INFO: --------------------------------------------------------
+- 22:07:02.157 INFO: Started application
+- 22:07:02.157 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:07:02.157 INFO: Log level = DEBUG4
+- 22:07:02.172 INFO: Starting Mongoose 3.9c web server
+- 22:07:02.172 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\wwwzz
+- 22:07:02.172 INFO: Index files: index.html,index.php
+- 22:07:02.188 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:07:02.188 INFO: CGI pattern: **.php$
+- 22:07:02.188 INFO: Hide files patterns: 
+- 22:07:02.188 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:07:02.204 INFO: Web server url: http://127.0.0.1:49197/
+- 22:07:02.204 INFO: remote_debugging_port = 62939
+- 22:07:02.204 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=62939
+- 22:07:02.329 DEBUG: App::OnContextInitialized()
+- 22:07:03.329 DEBUG: Window max width/height = 1286/680
+- 22:07:03.329 DEBUG: GetBrowserWindow(): not found, hwnd = 1509742
+- 22:07:03.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:07:03.344 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:07:03.344 DEBUG: StoreBrowserWindow(): hwnd = 1509742
+- 22:07:03.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=ED1642C77413CE9F628AA58C3B3319A9 --mojo-platform-channel-handle=1804 /prefetch:2
+- 22:07:03.438 DEBUG: ClientHandler::OnAfterCreated()
+- 22:07:03.438 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:07:03.469 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:07:03.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5DFA5CB6B0C4A9D82BCD0C802FFB6407 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5DFA5CB6B0C4A9D82BCD0C802FFB6407 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+[0327/220703.278:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:07:03.110 DEBUG: OnBrowserCreated()
+- 22:07:04.735 INFO: GET 404 /
+- 22:07:04.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49197/
+- 22:07:07.782 DEBUG: WM_DESTROY
+- 22:07:07.782 DEBUG: RemoveBrowserWindow(): hwnd = 1509742
+- 22:07:07.782 INFO: Stopping Mongoose web server
+- 22:07:07.782 DEBUG: Mongoose webserver stopped immediately
+- 22:07:07.797 DEBUG: OnBeforeClose() hwnd=8324440
+- 22:07:07.797 DEBUG: RemoveBrowserWindow(): hwnd = 8324440
+- 22:07:07.813 DEBUG: GetBrowserWindow(): not found, hwnd = 8324440
+- 22:07:07.813 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:07:07.829 DEBUG: Calling CefQuitMessageLoop()
+- 22:07:07.297 DEBUG: OnBrowserDestroyed()
+- 22:07:07.922 INFO: Ended application
+- 22:07:07.922 INFO: --------------------------------------------------------
+- 22:07:56.140 INFO: --------------------------------------------------------
+- 22:07:56.156 INFO: Started application
+- 22:07:56.156 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:07:56.156 INFO: Log level = DEBUG4
+- 22:07:56.156 INFO: Starting Mongoose 3.9c web server
+- 22:07:56.156 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\wwwzz
+- 22:07:56.156 INFO: Index files: index.html,index.php
+- 22:07:56.172 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:07:56.172 INFO: CGI pattern: **.php$
+- 22:07:56.172 INFO: Hide files patterns: 
+- 22:07:56.172 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:07:56.187 INFO: Web server url: http://127.0.0.1:49222/
+- 22:07:56.203 INFO: remote_debugging_port = 49675
+- 22:07:56.203 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=49675
+- 22:07:56.312 DEBUG: App::OnContextInitialized()
+- 22:07:56.312 DEBUG: Window max width/height = 1286/680
+- 22:07:56.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1771826
+- 22:07:56.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:07:56.328 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:07:56.328 DEBUG: StoreBrowserWindow(): hwnd = 1771826
+- 22:07:56.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=AC2816252CF6750F0C52E26FA8AF8A05 --mojo-platform-channel-handle=1804 /prefetch:2
+- 22:07:56.453 DEBUG: ClientHandler::OnAfterCreated()
+- 22:07:56.453 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:07:57.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:07:57.016 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5A780354C5ABFB691C80F374A798CBD0 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5A780354C5ABFB691C80F374A798CBD0 --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+[0327/220757.140:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:07:57.188 DEBUG: OnBrowserCreated()
+- 22:07:58.859 INFO: GET 404 /
+- 22:07:58.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49222/
+- 22:08:00.047 DEBUG: WM_DESTROY
+- 22:08:00.047 DEBUG: RemoveBrowserWindow(): hwnd = 1771826
+- 22:08:00.062 INFO: Stopping Mongoose web server
+- 22:08:00.062 DEBUG: Mongoose webserver stopped immediately
+- 22:08:00.078 DEBUG: OnBeforeClose() hwnd=1051112
+- 22:08:00.078 DEBUG: RemoveBrowserWindow(): hwnd = 1051112
+- 22:08:00.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1051112
+- 22:08:00.078 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:08:00.094 DEBUG: Calling CefQuitMessageLoop()
+- 22:08:00.156 INFO: Ended application
+- 22:08:00.156 INFO: --------------------------------------------------------
+- 22:08:16.140 INFO: --------------------------------------------------------
+- 22:08:16.140 INFO: Started application
+- 22:08:16.140 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:08:16.140 INFO: Log level = DEBUG4
+- 22:08:16.156 INFO: Starting Mongoose 3.9c web server
+- 22:08:16.156 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:08:16.156 INFO: Index files: index.html,index.php
+- 22:08:16.171 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:08:16.171 INFO: CGI pattern: **.php$
+- 22:08:16.171 INFO: Hide files patterns: 
+- 22:08:16.171 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:08:16.203 INFO: Web server url: http://127.0.0.1:49228/
+- 22:08:16.203 INFO: remote_debugging_port = 64404
+- 22:08:16.203 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=64404
+- 22:08:16.312 DEBUG: App::OnContextInitialized()
+- 22:08:16.312 DEBUG: Window max width/height = 1286/680
+- 22:08:16.312 DEBUG: GetBrowserWindow(): not found, hwnd = 1640814
+- 22:08:16.312 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:08:16.312 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:08:16.328 DEBUG: StoreBrowserWindow(): hwnd = 1640814
+- 22:08:16.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=0C222E228AC1AB1B3EA54AC68B411D7B --mojo-platform-channel-handle=1812 /prefetch:2
+- 22:08:16.437 DEBUG: ClientHandler::OnAfterCreated()
+- 22:08:16.437 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:08:16.468 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:08:16.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F8028DE09E4BC28D7126C7127653308B --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F8028DE09E4BC28D7126C7127653308B --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[0327/220816.825:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:08:16.109 DEBUG: OnBrowserCreated()
+- 22:08:18.406 INFO: GET 200 /
+- 22:08:18.844 DEBUG: OnContextCreated()
+- 22:08:18.421 INFO: GET 200 /public/style/alertify.min.css
+- 22:08:18.421 INFO: GET 200 /public/style/themes/default.min.css
+- 22:08:18.421 INFO: GET 200 /public/style/nav.css
+- 22:08:18.421 INFO: GET 200 /public/style/bulma.css
+- 22:08:18.421 INFO: GET 200 /public/style/app.css
+- 22:08:18.437 INFO: GET 200 /public/style/jqurysmodal.css
+- 22:08:18.515 INFO: GET 200 /public/js/jqurymodal.js
+- 22:08:18.546 INFO: GET 200 /public/js/swtt.js
+- 22:08:18.562 INFO: GET 200 /public/js/alertify.min.js
+- 22:08:18.562 INFO: GET 200 /public/asset/ico/home.png
+- 22:08:18.578 INFO: GET 200 /public/asset/ico/exportimport.png
+- 22:08:18.578 INFO: GET 200 /public/asset/ico/pipiter.png
+- 22:08:18.593 INFO: GET 200 /public/js/jquery.js
+- 22:08:18.593 INFO: GET 200 /public/asset/ico/salle.png
+- 22:08:18.609 INFO: GET 200 /public/asset/icon/uncheck.png
+- 22:08:18.609 INFO: GET 200 /public/asset/icon/insert.png
+- 22:08:18.640 INFO: GET 200 /public/asset/icon/edit.png
+- 22:08:18.656 INFO: GET 200 /public/asset/icon/check.png
+- 22:08:19.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49228/
+- 22:08:20.015 DEBUG: WM_DESTROY
+- 22:08:20.015 DEBUG: RemoveBrowserWindow(): hwnd = 1640814
+- 22:08:20.015 INFO: Stopping Mongoose web server
+- 22:08:20.031 DEBUG: Mongoose webserver stopped immediately
+- 22:08:20.062 DEBUG: OnBeforeClose() hwnd=1574720
+- 22:08:20.062 DEBUG: RemoveBrowserWindow(): hwnd = 1574720
+- 22:08:20.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1574720
+- 22:08:20.078 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:08:20.078 DEBUG: Calling CefQuitMessageLoop()
+- 22:08:20.156 INFO: Ended application
+- 22:08:20.156 INFO: --------------------------------------------------------
+- 22:13:36.156 INFO: --------------------------------------------------------
+- 22:13:36.156 INFO: Started application
+- 22:13:36.156 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:13:36.172 INFO: Log level = DEBUG4
+- 22:13:36.172 INFO: Starting Mongoose 3.9c web server
+- 22:13:36.188 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:13:36.188 INFO: Index files: index.html,index.php
+- 22:13:36.188 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:13:36.188 INFO: CGI pattern: **.php$
+- 22:13:36.188 INFO: Hide files patterns: 
+- 22:13:36.188 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:13:36.203 INFO: Web server url: http://127.0.0.1:49424/
+- 22:13:36.219 INFO: remote_debugging_port = 57504
+- 22:13:36.219 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=57504
+- 22:13:36.344 DEBUG: App::OnContextInitialized()
+- 22:13:36.344 DEBUG: Window max width/height = 1286/680
+- 22:13:36.359 DEBUG: GetBrowserWindow(): not found, hwnd = 1706498
+- 22:13:36.359 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:13:36.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:13:36.391 DEBUG: StoreBrowserWindow(): hwnd = 1706498
+- 22:13:36.016 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=F52504EBC1D7E1E0FA6604D1DD12FB45 --mojo-platform-channel-handle=1804 /prefetch:2
+- 22:13:36.516 DEBUG: ClientHandler::OnAfterCreated()
+- 22:13:36.516 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:13:36.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:13:37.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=875F78540D43BA1B491E612C215F6BC2 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=875F78540D43BA1B491E612C215F6BC2 --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+[0327/221337.125:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:13:37.125 DEBUG: OnBrowserCreated()
+- 22:13:38.125 INFO: GET 200 /public/js/alertify.min.js
+- 22:13:38.141 INFO: GET 200 /
+- 22:13:38.500 DEBUG: OnContextCreated()
+- 22:13:38.156 INFO: GET 200 /public/style/alertify.min.css
+- 22:13:38.156 INFO: GET 200 /public/style/themes/default.min.css
+- 22:13:38.156 INFO: GET 200 /public/style/nav.css
+- 22:13:38.156 INFO: GET 200 /public/style/app.css
+- 22:13:38.156 INFO: GET 200 /public/style/bulma.css
+- 22:13:38.156 INFO: GET 200 /public/js/jquery.js
+- 22:13:38.172 INFO: GET 200 /public/style/jqurysmodal.css
+- 22:13:38.172 INFO: GET 200 /public/js/jqurymodal.js
+- 22:13:38.172 INFO: GET 200 /public/js/swtt.js
+- 22:13:38.188 INFO: GET 200 /public/asset/ico/home.png
+- 22:13:38.203 INFO: GET 200 /public/asset/ico/exportimport.png
+- 22:13:38.203 INFO: GET 200 /public/asset/ico/pipiter.png
+- 22:13:38.203 INFO: GET 200 /public/asset/ico/salle.png
+- 22:13:38.219 INFO: GET 200 /public/asset/icon/uncheck.png
+- 22:13:38.219 INFO: GET 200 /public/asset/icon/insert.png
+- 22:13:38.219 INFO: GET 200 /public/asset/icon/edit.png
+- 22:13:38.219 INFO: GET 200 /public/asset/icon/check.png
+[0327/221349.694:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0327/221400.140:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+- 22:14:00.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49424/
+- 22:14:02.422 DEBUG: WM_DESTROY
+- 22:14:02.422 DEBUG: RemoveBrowserWindow(): hwnd = 1706498
+- 22:14:02.422 INFO: Stopping Mongoose web server
+- 22:14:02.422 DEBUG: Mongoose webserver stopped immediately
+- 22:14:02.453 DEBUG: OnBeforeClose() hwnd=3279390
+- 22:14:02.453 DEBUG: RemoveBrowserWindow(): hwnd = 3279390
+- 22:14:02.453 DEBUG: GetBrowserWindow(): not found, hwnd = 3279390
+- 22:14:02.469 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:14:02.469 DEBUG: Calling CefQuitMessageLoop()
+- 22:14:02.547 INFO: Ended application
+- 22:14:02.547 INFO: --------------------------------------------------------
+- 22:31:44.140 INFO: --------------------------------------------------------
+- 22:31:44.140 INFO: Started application
+- 22:31:44.156 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:31:44.156 INFO: Log level = DEBUG4
+- 22:31:44.172 INFO: Starting Mongoose 3.9c web server
+- 22:31:44.172 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:31:44.172 INFO: Index files: index.html,index.php
+- 22:31:44.172 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:31:44.172 INFO: CGI pattern: **.php$
+- 22:31:44.172 INFO: Hide files patterns: 
+- 22:31:44.172 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:31:44.187 INFO: Web server url: http://127.0.0.1:50808/
+- 22:31:44.203 INFO: remote_debugging_port = 57917
+- 22:31:44.203 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=57917
+- 22:31:45.328 DEBUG: App::OnContextInitialized()
+- 22:31:45.328 DEBUG: Window max width/height = 1286/680
+- 22:31:45.344 DEBUG: GetBrowserWindow(): not found, hwnd = 4261432
+- 22:31:45.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:31:45.359 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:31:45.359 DEBUG: StoreBrowserWindow(): hwnd = 4261432
+- 22:31:45.484 DEBUG: ClientHandler::OnAfterCreated()
+- 22:31:45.484 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:31:45.016 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=28792744C3D872B9E3FA53D6872D31EB --mojo-platform-channel-handle=1812 /prefetch:2
+- 22:31:45.515 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:31:45.016 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=DAC696D213A1A2CBE2FAF07E89E682D0 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=DAC696D213A1A2CBE2FAF07E89E682D0 --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[0327/223145.521:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:31:45.110 DEBUG: OnBrowserCreated()
+- 22:31:46.109 INFO: GET 200 /public/js/alertify.min.js
+- 22:31:46.422 DEBUG: OnContextCreated()
+- 22:31:46.109 INFO: GET 200 /
+- 22:31:46.125 INFO: GET 200 /public/style/alertify.min.css
+- 22:31:46.125 INFO: GET 200 /public/style/themes/default.min.css
+- 22:31:46.140 INFO: GET 200 /public/style/nav.css
+- 22:31:46.140 INFO: GET 200 /public/style/app.css
+- 22:31:46.140 INFO: GET 200 /public/style/bulma.css
+- 22:31:46.140 INFO: GET 200 /public/js/jquery.js
+- 22:31:46.140 INFO: GET 200 /public/style/jqurysmodal.css
+- 22:31:46.140 INFO: GET 200 /public/js/jqurymodal.js
+- 22:31:46.140 INFO: GET 200 /public/js/swtt.js
+- 22:31:46.156 INFO: GET 200 /public/asset/ico/home.png
+- 22:31:46.172 INFO: GET 200 /public/asset/ico/exportimport.png
+- 22:31:46.172 INFO: GET 200 /public/asset/ico/pipiter.png
+- 22:31:46.172 INFO: GET 200 /public/asset/ico/salle.png
+- 22:31:46.172 INFO: GET 200 /public/asset/icon/uncheck.png
+- 22:31:46.187 INFO: GET 200 /public/asset/icon/insert.png
+- 22:31:46.187 INFO: GET 200 /public/asset/icon/edit.png
+- 22:31:46.187 INFO: GET 200 /public/asset/icon/check.png
+- 22:31:47.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50808/
+- 22:31:51.703 DEBUG: WM_DESTROY
+- 22:31:51.703 DEBUG: RemoveBrowserWindow(): hwnd = 4261432
+- 22:31:51.703 INFO: Stopping Mongoose web server
+- 22:31:51.719 DEBUG: Mongoose webserver stopped immediately
+- 22:31:51.719 DEBUG: OnBeforeClose() hwnd=2688656
+- 22:31:51.719 DEBUG: RemoveBrowserWindow(): hwnd = 2688656
+- 22:31:51.734 DEBUG: GetBrowserWindow(): not found, hwnd = 2688656
+- 22:31:51.734 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:31:51.734 DEBUG: Calling CefQuitMessageLoop()
+- 22:31:51.812 INFO: Ended application
+- 22:31:51.812 INFO: --------------------------------------------------------
+- 22:40:45.172 INFO: --------------------------------------------------------
+- 22:40:45.172 INFO: Started application
+- 22:40:45.188 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:40:45.188 INFO: Log level = DEBUG4
+- 22:40:45.203 INFO: Starting Mongoose 3.9c web server
+- 22:40:45.203 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:40:45.203 INFO: Index files: index.html,index.php
+- 22:40:45.203 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:40:45.203 INFO: CGI pattern: **.php$
+- 22:40:45.203 INFO: Hide files patterns: 
+- 22:40:45.219 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:40:45.235 INFO: Web server url: http://127.0.0.1:51039/
+- 22:40:45.235 INFO: remote_debugging_port = 59167
+- 22:40:45.235 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=59167
+- 22:40:45.375 DEBUG: App::OnContextInitialized()
+- 22:40:45.375 DEBUG: Window max width/height = 1286/680
+- 22:40:45.375 DEBUG: GetBrowserWindow(): not found, hwnd = 264846
+- 22:40:45.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:40:45.391 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:40:45.391 DEBUG: StoreBrowserWindow(): hwnd = 264846
+- 22:40:46.516 DEBUG: ClientHandler::OnAfterCreated()
+- 22:40:46.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:40:46.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=793180FE56246B12ED18FA4CB0251EFD --mojo-platform-channel-handle=1804 /prefetch:2
+- 22:40:46.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:40:46.015 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1FB54C1A4010460DDC0E3644F4EB660D --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1FB54C1A4010460DDC0E3644F4EB660D --renderer-client-id=3 --mojo-platform-channel-handle=2436 /prefetch:1
+[0327/224046.399:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:40:46.140 DEBUG: OnBrowserCreated()
+- 22:40:47.344 INFO: GET 200 /
+- 22:40:47.344 INFO: GET 200 /public/js/alertify.min.js
+- 22:40:47.547 DEBUG: OnContextCreated()
+- 22:40:47.360 INFO: GET 200 /public/style/alertify.min.css
+- 22:40:47.360 INFO: GET 200 /public/style/themes/default.min.css
+- 22:40:47.360 INFO: GET 200 /public/style/nav.css
+- 22:40:47.375 INFO: GET 200 /public/style/jqurysmodal.css
+- 22:40:47.375 INFO: GET 200 /public/style/bulma.css
+- 22:40:47.375 INFO: GET 200 /public/js/jquery.js
+- 22:40:47.375 INFO: GET 200 /public/js/swtt.js
+- 22:40:47.375 INFO: GET 200 /public/js/jqurymodal.js
+- 22:40:47.360 INFO: GET 200 /public/style/app.css
+- 22:40:48.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51039/
+- 22:41:02.531 DEBUG: OnBeforeClose() hwnd=789004
+- 22:41:02.547 DEBUG: RemoveBrowserWindow(): hwnd = 789004
+- 22:41:02.547 DEBUG: GetBrowserWindow(): not found, hwnd = 789004
+- 22:41:02.547 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:41:06.140 INFO: --------------------------------------------------------
+- 22:41:06.156 INFO: Started application
+- 22:41:06.172 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:41:06.172 INFO: Log level = DEBUG4
+- 22:41:06.172 INFO: Starting Mongoose 3.9c web server
+- 22:41:06.172 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:41:06.172 INFO: Index files: index.html,index.php
+- 22:41:06.172 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:41:06.172 INFO: CGI pattern: **.php$
+- 22:41:06.172 INFO: Hide files patterns: 
+- 22:41:06.187 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:41:06.219 INFO: Web server url: http://127.0.0.1:51058/
+- 22:41:06.234 INFO: remote_debugging_port = 62936
+- 22:41:06.250 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=62936
+- 22:41:06.359 DEBUG: App::OnContextInitialized()
+- 22:41:06.359 DEBUG: Window max width/height = 1286/680
+- 22:41:06.375 DEBUG: GetBrowserWindow(): not found, hwnd = 264860
+- 22:41:06.390 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:41:06.390 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:41:06.390 DEBUG: StoreBrowserWindow(): hwnd = 264860
+- 22:41:06.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=5D8760FEDC608D53AFECA3DF7B8D7BB4 --mojo-platform-channel-handle=1828 /prefetch:2
+- 22:41:06.500 DEBUG: ClientHandler::OnAfterCreated()
+- 22:41:06.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:41:06.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:41:07.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5D20E911003261FFF0ADE5ED13BB066C --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5D20E911003261FFF0ADE5ED13BB066C --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+[0327/224107.063:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:41:07.110 DEBUG: OnBrowserCreated()
+- 22:41:08.922 INFO: GET 200 /
+- 22:41:08.922 INFO: GET 200 /public/js/alertify.min.js
+- 22:41:08.328 DEBUG: OnContextCreated()
+- 22:41:08.937 INFO: GET 200 /public/style/alertify.min.css
+- 22:41:08.953 INFO: GET 200 /public/style/themes/default.min.css
+- 22:41:08.953 INFO: GET 200 /public/style/nav.css
+- 22:41:08.953 INFO: GET 200 /public/style/app.css
+- 22:41:08.953 INFO: GET 200 /public/style/bulma.css
+- 22:41:08.953 INFO: GET 200 /public/style/jqurysmodal.css
+- 22:41:08.953 INFO: GET 200 /public/js/swtt.js
+- 22:41:08.953 INFO: GET 200 /public/js/jquery.js
+- 22:41:08.953 INFO: GET 200 /public/js/jqurymodal.js
+- 22:41:08.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51058/
+- 22:42:36.750 DEBUG: WM_DESTROY
+- 22:42:36.750 DEBUG: RemoveBrowserWindow(): hwnd = 264860
+- 22:42:36.750 INFO: Stopping Mongoose web server
+- 22:42:36.750 DEBUG: Mongoose webserver stopped immediately
+- 22:42:36.765 DEBUG: OnBeforeClose() hwnd=395978
+- 22:42:36.765 DEBUG: RemoveBrowserWindow(): hwnd = 395978
+- 22:42:36.765 DEBUG: GetBrowserWindow(): not found, hwnd = 395978
+- 22:42:36.765 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:42:36.765 DEBUG: Calling CefQuitMessageLoop()
+- 22:42:36.172 DEBUG: OnBrowserDestroyed()
+- 22:42:36.828 INFO: Ended application
+- 22:42:36.828 INFO: --------------------------------------------------------
+- 22:43:13.156 INFO: --------------------------------------------------------
+- 22:43:13.187 INFO: Started application
+- 22:43:13.187 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:43:13.187 INFO: Log level = DEBUG4
+- 22:43:13.203 INFO: Starting Mongoose 3.9c web server
+- 22:43:13.203 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:43:13.203 INFO: Index files: index.html,index.php
+- 22:43:13.203 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:43:13.203 INFO: CGI pattern: **.php$
+- 22:43:13.219 INFO: Hide files patterns: 
+- 22:43:13.219 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:43:13.250 INFO: Web server url: http://127.0.0.1:51123/
+- 22:43:13.250 INFO: remote_debugging_port = 51482
+- 22:43:13.250 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=51482
+- 22:43:14.406 DEBUG: App::OnContextInitialized()
+- 22:43:14.406 DEBUG: Window max width/height = 1286/680
+- 22:43:14.406 DEBUG: GetBrowserWindow(): not found, hwnd = 1706062
+- 22:43:14.406 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:43:14.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:43:14.406 DEBUG: StoreBrowserWindow(): hwnd = 1706062
+- 22:43:14.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=5A2B7A01F9F2E61D4AD30CAAE69D87B6 --mojo-platform-channel-handle=1812 /prefetch:2
+- 22:43:14.547 DEBUG: ClientHandler::OnAfterCreated()
+- 22:43:14.547 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:43:14.578 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:43:14.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0214DFA3EFE40CEE23540CB0CE88EF60 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0214DFA3EFE40CEE23540CB0CE88EF60 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0327/224314.440:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:43:14.078 DEBUG: OnBrowserCreated()
+- 22:43:15.000 INFO: GET 200 /
+- 22:43:15.000 INFO: GET 200 /public/js/alertify.min.js
+- 22:43:15.344 DEBUG: OnContextCreated()
+- 22:43:15.016 INFO: GET 200 /public/style/themes/default.min.css
+- 22:43:15.016 INFO: GET 200 /public/style/alertify.min.css
+- 22:43:15.016 INFO: GET 200 /public/style/nav.css
+- 22:43:15.016 INFO: GET 200 /public/style/jqurysmodal.css
+- 22:43:15.016 INFO: GET 200 /public/style/bulma.css
+- 22:43:15.016 INFO: GET 200 /public/style/app.css
+- 22:43:15.031 INFO: GET 200 /public/js/jquery.js
+- 22:43:15.031 INFO: GET 200 /public/js/jqurymodal.js
+- 22:43:15.031 INFO: GET 200 /public/js/swtt.js
+- 22:43:16.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51123/
+- 22:43:18.891 DEBUG: WM_DESTROY
+- 22:43:18.891 DEBUG: RemoveBrowserWindow(): hwnd = 1706062
+- 22:43:18.906 INFO: Stopping Mongoose web server
+- 22:43:18.906 DEBUG: Mongoose webserver stopped immediately
+- 22:43:18.937 DEBUG: OnBeforeClose() hwnd=461514
+- 22:43:18.937 DEBUG: RemoveBrowserWindow(): hwnd = 461514
+- 22:43:18.937 DEBUG: GetBrowserWindow(): not found, hwnd = 461514
+- 22:43:18.953 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:43:18.953 DEBUG: Calling CefQuitMessageLoop()
+- 22:43:18.016 INFO: Ended application
+- 22:43:18.016 INFO: --------------------------------------------------------
+- 22:43:58.140 INFO: --------------------------------------------------------
+- 22:43:58.156 INFO: Started application
+- 22:43:58.156 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:43:58.156 INFO: Log level = DEBUG4
+- 22:43:58.171 INFO: Starting Mongoose 3.9c web server
+- 22:43:58.171 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:43:58.171 INFO: Index files: index.html,index.php
+- 22:43:58.171 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:43:58.171 INFO: CGI pattern: **.php$
+- 22:43:58.171 INFO: Hide files patterns: 
+- 22:43:58.187 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:43:58.218 INFO: Web server url: http://127.0.0.1:51148/
+- 22:43:58.250 INFO: remote_debugging_port = 54112
+- 22:43:58.265 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=54112
+- 22:43:58.375 DEBUG: App::OnContextInitialized()
+- 22:43:58.375 DEBUG: Window max width/height = 1286/680
+- 22:43:58.375 DEBUG: GetBrowserWindow(): not found, hwnd = 985808
+- 22:43:58.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:43:58.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:43:58.375 DEBUG: StoreBrowserWindow(): hwnd = 985808
+- 22:43:58.016 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=F838E6C2FCF88EB8620420FDDB49AF63 --mojo-platform-channel-handle=1808 /prefetch:2
+- 22:43:58.500 DEBUG: ClientHandler::OnAfterCreated()
+- 22:43:58.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:43:58.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:43:58.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1EDA7D8FAE605ABCFD719E71C83083EF --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1EDA7D8FAE605ABCFD719E71C83083EF --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[0327/224358.877:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:43:58.078 DEBUG: OnBrowserCreated()
+- 22:44:00.812 WARNING: spawn_process: CreateProcess(C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe "C:\Users\omarfs\Desktop\desk top app for presnation\back\www\index.php"): 2
+- 22:44:00.812 INFO: GET 500 /
+- 22:44:00.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51148/
+- 22:44:30.250 DEBUG: OnBeforeClose() hwnd=1246466
+- 22:44:30.250 DEBUG: RemoveBrowserWindow(): hwnd = 1246466
+- 22:44:30.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1246466
+- 22:44:30.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:44:41.172 INFO: --------------------------------------------------------
+- 22:44:41.187 INFO: Started application
+- 22:44:41.187 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:44:41.187 INFO: Log level = DEBUG4
+- 22:44:41.203 INFO: Starting Mongoose 3.9c web server
+- 22:44:41.203 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 22:44:41.218 INFO: Index files: index.html,index.php
+- 22:44:41.218 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:44:41.218 INFO: CGI pattern: **.php$
+- 22:44:41.218 INFO: Hide files patterns: 
+- 22:44:41.218 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:44:41.265 INFO: Web server url: http://127.0.0.1:51163/
+- 22:44:41.265 INFO: remote_debugging_port = 61863
+- 22:44:41.265 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=61863
+- 22:44:41.375 DEBUG: App::OnContextInitialized()
+- 22:44:41.375 DEBUG: Window max width/height = 1286/680
+- 22:44:41.406 DEBUG: GetBrowserWindow(): not found, hwnd = 985740
+- 22:44:41.406 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:44:41.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:44:41.406 DEBUG: StoreBrowserWindow(): hwnd = 985740
+- 22:44:41.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=DC2776AC4EC6C7E6F0DA692FB5A9AC1D --mojo-platform-channel-handle=1792 /prefetch:2
+- 22:44:41.515 DEBUG: ClientHandler::OnAfterCreated()
+- 22:44:41.515 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:44:41.547 DEBUG: OnLoadingStateChange: loading=1, url=
+[0327/224441.578:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:44:41.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AEF9E798C5E9956D537B984D244F8766 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AEF9E798C5E9956D537B984D244F8766 --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+- 22:44:41.078 DEBUG: OnBrowserCreated()
+- 22:44:42.015 INFO: GET 200 /public/js/alertify.min.js
+- 22:44:42.015 INFO: GET 200 /public/style/alertify.min.css
+- 22:44:42.015 INFO: GET 200 /public/style/themes/default.min.css
+- 22:44:42.015 INFO: GET 200 /public/style/nav.css
+- 22:44:42.015 INFO: GET 200 /public/style/bulma.css
+- 22:44:42.031 INFO: GET 200 /public/style/app.css
+- 22:44:42.031 INFO: GET 200 /public/js/jqurymodal.js
+- 22:44:42.031 INFO: GET 200 /public/js/jquery.js
+- 22:44:42.031 INFO: GET 200 /public/js/swtt.js
+- 22:44:43.047 INFO: GET 200 /
+- 22:44:43.422 DEBUG: OnContextCreated()
+- 22:44:43.062 INFO: GET 200 /public/style/jqurysmodal.css
+- 22:44:43.078 INFO: GET 200 /public/asset/ico/home.png
+- 22:44:43.078 INFO: GET 200 /public/asset/ico/exportimport.png
+- 22:44:43.078 INFO: GET 200 /public/asset/ico/pipiter.png
+- 22:44:43.093 INFO: GET 200 /public/asset/ico/salle.png
+- 22:44:43.093 INFO: GET 200 /public/asset/icon/uncheck.png
+- 22:44:43.093 INFO: GET 200 /public/asset/icon/insert.png
+- 22:44:43.109 INFO: GET 200 /public/asset/icon/edit.png
+- 22:44:43.109 INFO: GET 200 /public/asset/icon/check.png
+- 22:44:43.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51163/
+- 22:44:58.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51163/
+- 22:44:58.235 DEBUG: OnContextCreated()
+- 22:44:58.890 INFO: GET 200 /?page=2
+- 22:44:59.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51163/?page=2
+- 22:45:01.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51163/?page=2
+- 22:45:01.610 DEBUG: OnContextCreated()
+- 22:45:01.265 INFO: GET 200 /?page=3
+- 22:45:01.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51163/?page=3
+- 22:45:56.187 DEBUG: WM_DESTROY
+- 22:45:56.187 DEBUG: RemoveBrowserWindow(): hwnd = 985740
+- 22:45:56.187 INFO: Stopping Mongoose web server
+- 22:45:56.187 DEBUG: Mongoose webserver stopped immediately
+- 22:45:56.203 DEBUG: OnBeforeClose() hwnd=1051344
+- 22:45:56.203 DEBUG: RemoveBrowserWindow(): hwnd = 1051344
+- 22:45:56.203 DEBUG: GetBrowserWindow(): not found, hwnd = 1051344
+- 22:45:56.203 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:45:56.203 DEBUG: Calling CefQuitMessageLoop()
+- 22:45:56.265 INFO: Ended application
+- 22:45:56.265 INFO: --------------------------------------------------------
+- 22:48:03.219 INFO: --------------------------------------------------------
+- 22:48:03.219 INFO: Started application
+- 22:48:03.219 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 22:48:03.235 INFO: Log level = DEBUG4
+- 22:48:03.250 INFO: Starting Mongoose 3.9c web server
+- 22:48:03.250 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\wwwq
+- 22:48:03.250 INFO: Index files: index.html,index.php
+- 22:48:03.250 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 22:48:03.250 INFO: CGI pattern: **.php$
+- 22:48:03.250 INFO: Hide files patterns: 
+- 22:48:03.250 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:48:03.282 INFO: Web server url: http://127.0.0.1:51273/
+- 22:48:03.282 INFO: remote_debugging_port = 54151
+- 22:48:03.282 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=54151
+- 22:48:03.391 DEBUG: App::OnContextInitialized()
+- 22:48:03.391 DEBUG: Window max width/height = 1286/680
+- 22:48:03.391 DEBUG: GetBrowserWindow(): not found, hwnd = 3737872
+- 22:48:03.391 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:48:03.391 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:48:03.391 DEBUG: StoreBrowserWindow(): hwnd = 3737872
+- 22:48:03.016 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=E15A97ECF55F4FD24F9EDACA78EC3924 --mojo-platform-channel-handle=1828 /prefetch:2
+- 22:48:03.532 DEBUG: ClientHandler::OnAfterCreated()
+- 22:48:03.532 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:48:03.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:48:04.016 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=52C65C86127323D4B2150A8C02A5324C --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=52C65C86127323D4B2150A8C02A5324C --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+[0327/224804.099:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:48:04.141 DEBUG: OnBrowserCreated()
+- 22:48:05.938 INFO: GET 404 /
+- 22:48:05.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51273/
+- 22:48:07.797 DEBUG: OnBeforeClose() hwnd=2099278
+- 22:48:07.813 DEBUG: RemoveBrowserWindow(): hwnd = 2099278
+- 22:48:07.813 DEBUG: GetBrowserWindow(): not found, hwnd = 2099278
+- 22:48:07.813 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:14:54.141 INFO: --------------------------------------------------------
+- 00:14:54.141 INFO: Started application
+- 00:14:54.156 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 00:14:54.156 INFO: Log level = DEBUG4
+- 00:14:54.156 INFO: Starting Mongoose 3.9c web server
+- 00:14:54.156 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\wwwq
+- 00:14:54.172 INFO: Index files: index.html,index.php
+- 00:14:54.172 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 00:14:54.172 INFO: CGI pattern: **.php$
+- 00:14:54.172 INFO: Hide files patterns: 
+- 00:14:54.172 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:14:54.203 INFO: Web server url: http://127.0.0.1:51927/
+- 00:14:54.203 INFO: remote_debugging_port = 61627
+- 00:14:54.203 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=61627
+[0328/001454.695:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 00:14:54.328 DEBUG: App::OnContextInitialized()
+- 00:14:54.328 DEBUG: Window max width/height = 1286/680
+- 00:14:54.344 DEBUG: GetBrowserWindow(): not found, hwnd = 12191572
+- 00:14:54.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:14:54.360 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:14:54.375 DEBUG: StoreBrowserWindow(): hwnd = 12191572
+- 00:14:54.469 DEBUG: ClientHandler::OnAfterCreated()
+- 00:14:54.485 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:14:54.516 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:14:54.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=44036DBAF9C213E085CE8322FA3602A3 --mojo-platform-channel-handle=1832 /prefetch:2
+- 00:14:55.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1E338DFC39E2A913FB65F5A94190AEE2 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1E338DFC39E2A913FB65F5A94190AEE2 --renderer-client-id=3 --mojo-platform-channel-handle=2428 /prefetch:1
+[0328/001455.063:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:14:55.141 DEBUG: OnBrowserCreated()
+- 00:14:55.922 INFO: GET 404 /
+- 00:14:55.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51927/
+- 00:14:57.031 DEBUG: WM_DESTROY
+- 00:14:57.031 DEBUG: RemoveBrowserWindow(): hwnd = 12191572
+- 00:14:57.031 INFO: Stopping Mongoose web server
+- 00:14:57.031 DEBUG: Mongoose webserver stopped immediately
+- 00:14:57.047 DEBUG: OnBeforeClose() hwnd=4262438
+- 00:14:57.047 DEBUG: RemoveBrowserWindow(): hwnd = 4262438
+- 00:14:57.063 DEBUG: GetBrowserWindow(): not found, hwnd = 4262438
+- 00:14:57.063 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:14:57.063 DEBUG: Calling CefQuitMessageLoop()
+- 00:14:57.141 INFO: Ended application
+- 00:14:57.141 INFO: --------------------------------------------------------
+- 00:15:07.140 INFO: --------------------------------------------------------
+- 00:15:07.140 INFO: Started application
+- 00:15:07.140 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 00:15:07.140 INFO: Log level = DEBUG4
+- 00:15:07.156 INFO: Starting Mongoose 3.9c web server
+- 00:15:07.156 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 00:15:07.172 INFO: Index files: index.html,index.php
+- 00:15:07.172 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 00:15:07.172 INFO: CGI pattern: **.php$
+- 00:15:07.172 INFO: Hide files patterns: 
+- 00:15:07.172 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:15:07.218 INFO: Web server url: http://127.0.0.1:51931/
+- 00:15:07.218 INFO: remote_debugging_port = 52433
+- 00:15:07.218 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=52433
+[0328/001507.997:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 00:15:08.328 DEBUG: App::OnContextInitialized()
+- 00:15:08.328 DEBUG: Window max width/height = 1286/680
+- 00:15:08.328 DEBUG: GetBrowserWindow(): not found, hwnd = 3344510
+- 00:15:08.343 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:15:08.343 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:15:08.343 DEBUG: StoreBrowserWindow(): hwnd = 3344510
+- 00:15:08.453 DEBUG: ClientHandler::OnAfterCreated()
+- 00:15:08.468 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:15:08.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=CAD963FC681E4DCD3287C5E47AE26D2F --mojo-platform-channel-handle=1808 /prefetch:2
+- 00:15:08.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:15:08.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F93C14194B252B9C1CC1D25DFCD7E2EE --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F93C14194B252B9C1CC1D25DFCD7E2EE --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+[0328/001508.420:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:15:08.141 DEBUG: OnBrowserCreated()
+- 00:15:08.062 INFO: GET 200 /public/js/alertify.min.js
+- 00:15:08.078 INFO: GET 200 /
+- 00:15:08.484 DEBUG: OnContextCreated()
+- 00:15:08.109 INFO: GET 200 /public/style/alertify.min.css
+- 00:15:08.109 INFO: GET 200 /public/style/themes/default.min.css
+- 00:15:08.109 INFO: GET 200 /public/style/nav.css
+- 00:15:08.109 INFO: GET 200 /public/style/jqurysmodal.css
+- 00:15:08.109 INFO: GET 200 /public/style/app.css
+- 00:15:08.109 INFO: GET 200 /public/style/bulma.css
+- 00:15:08.125 INFO: GET 200 /public/js/jquery.js
+- 00:15:08.125 INFO: GET 200 /public/js/jqurymodal.js
+- 00:15:08.125 INFO: GET 200 /public/js/swtt.js
+- 00:15:08.140 INFO: GET 200 /public/asset/ico/home.png
+- 00:15:08.140 INFO: GET 200 /public/asset/ico/exportimport.png
+- 00:15:08.140 INFO: GET 200 /public/asset/ico/pipiter.png
+- 00:15:08.140 INFO: GET 200 /public/asset/ico/salle.png
+- 00:15:08.156 INFO: GET 200 /public/asset/icon/uncheck.png
+- 00:15:08.156 INFO: GET 200 /public/asset/icon/insert.png
+- 00:15:08.156 INFO: GET 200 /public/asset/icon/edit.png
+- 00:15:08.172 INFO: GET 200 /public/asset/icon/check.png
+- 00:15:09.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51931/
+- 00:15:11.906 DEBUG: WM_DESTROY
+- 00:15:11.906 DEBUG: RemoveBrowserWindow(): hwnd = 3344510
+- 00:15:11.906 INFO: Stopping Mongoose web server
+- 00:15:11.906 DEBUG: Mongoose webserver stopped immediately
+- 00:15:11.922 DEBUG: OnBeforeClose() hwnd=2885178
+- 00:15:11.922 DEBUG: RemoveBrowserWindow(): hwnd = 2885178
+- 00:15:11.937 DEBUG: GetBrowserWindow(): not found, hwnd = 2885178
+- 00:15:11.937 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:15:11.937 DEBUG: Calling CefQuitMessageLoop()
+- 00:15:11.015 INFO: Ended application
+- 00:15:11.015 INFO: --------------------------------------------------------
+- 01:36:36.000 INFO: --------------------------------------------------------
+- 01:36:36.016 INFO: Started application
+- 01:36:36.016 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 01:36:36.016 INFO: Log level = DEBUG4
+- 01:36:36.016 INFO: Starting Mongoose 3.9c web server
+- 01:36:36.016 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 01:36:36.016 INFO: Index files: index.html,index.php
+- 01:36:36.016 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 01:36:36.016 INFO: CGI pattern: **.php$
+- 01:36:36.016 INFO: Hide files patterns: 
+- 01:36:36.016 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,PHPDESKTOP_VERSION=57.0
+- 01:36:36.016 INFO: Web server url: http://127.0.0.1:7788/
+- 01:36:36.016 INFO: remote_debugging_port = 62722
+- 01:36:36.016 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=62722
+- 01:36:36.109 DEBUG: App::OnContextInitialized()
+- 01:36:36.109 DEBUG: Window max width/height = 1286/680
+- 01:36:36.109 DEBUG: GetBrowserWindow(): not found, hwnd = 199038
+- 01:36:36.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:36:36.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:36:36.109 DEBUG: StoreBrowserWindow(): hwnd = 199038
+- 01:36:37.015 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=E5CADD8034CD6C88C2861D46CC4EF791 --mojo-platform-channel-handle=1800 /prefetch:2
+- 01:36:37.250 DEBUG: ClientHandler::OnAfterCreated()
+- 01:36:37.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:36:37.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:36:37.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0FE8AE7B99D96DA11A3A193C87CD0892 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0FE8AE7B99D96DA11A3A193C87CD0892 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0328/013637.361:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:36:37.219 DEBUG: OnBrowserCreated()
+- 01:36:38.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:7788/
+- 01:36:40.031 DEBUG: WM_DESTROY
+- 01:36:40.031 DEBUG: RemoveBrowserWindow(): hwnd = 199038
+- 01:36:40.031 INFO: Stopping Mongoose web server
+- 01:36:40.031 DEBUG: Mongoose webserver stopped immediately
+- 01:36:40.047 DEBUG: OnBeforeClose() hwnd=788822
+- 01:36:40.047 DEBUG: RemoveBrowserWindow(): hwnd = 788822
+- 01:36:40.047 DEBUG: GetBrowserWindow(): not found, hwnd = 788822
+- 01:36:40.047 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:36:40.047 DEBUG: Calling CefQuitMessageLoop()
+- 01:36:41.141 INFO: Ended application
+- 01:36:41.141 INFO: --------------------------------------------------------
+- 01:36:44.000 INFO: --------------------------------------------------------
+- 01:36:44.000 INFO: Started application
+- 01:36:44.000 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 01:36:44.000 INFO: Log level = DEBUG4
+- 01:36:44.000 INFO: Starting Mongoose 3.9c web server
+- 01:36:44.000 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 01:36:44.000 INFO: Index files: index.html,index.php
+- 01:36:44.000 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 01:36:44.000 INFO: CGI pattern: **.php$
+- 01:36:44.000 INFO: Hide files patterns: 
+- 01:36:44.000 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,PHPDESKTOP_VERSION=57.0
+- 01:36:44.016 INFO: Web server url: http://127.0.0.1:7788/
+- 01:36:44.016 INFO: remote_debugging_port = 56188
+- 01:36:44.016 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome_original.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=56188
+- 01:36:44.141 DEBUG: App::OnContextInitialized()
+- 01:36:44.156 DEBUG: Window max width/height = 1286/680
+- 01:36:44.156 DEBUG: GetBrowserWindow(): not found, hwnd = 1312566
+- 01:36:44.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:36:44.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:36:44.156 DEBUG: StoreBrowserWindow(): hwnd = 1312566
+- 01:36:44.281 DEBUG: ClientHandler::OnAfterCreated()
+- 01:36:44.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:36:44.015 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome_original.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=37D4F07B141E51C2636926731BC513CB --mojo-platform-channel-handle=1876 /prefetch:2
+- 01:36:44.312 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:36:44.016 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome_original.exe" --type=renderer --no-sandbox --primordial-pipe-token=3B4D574F4144E473438682CA405FA973 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3B4D574F4144E473438682CA405FA973 --renderer-client-id=3 --mojo-platform-channel-handle=2392 /prefetch:1
+[0328/013644.759:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:36:44.172 DEBUG: OnBrowserCreated()
+- 01:36:45.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:7788/
+- 01:36:52.000 INFO: --------------------------------------------------------
+- 01:36:52.000 INFO: Started application
+- 01:36:52.000 INFO: Logging to: C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log
+- 01:36:52.000 INFO: Log level = DEBUG4
+- 01:36:52.000 INFO: Starting Mongoose 3.9c web server
+- 01:36:52.000 INFO: WWW directory: C:\Users\omarfs\Desktop\desk top app for presnation\back\www
+- 01:36:52.000 INFO: Index files: index.html,index.php
+- 01:36:52.000 INFO: CGI interpreter: C:\Users\omarfs\Desktop\desk top app for presnation\back\php\php-cgi.exe
+- 01:36:52.000 INFO: CGI pattern: **.php$
+- 01:36:52.000 INFO: Hide files patterns: 
+- 01:36:52.000 INFO: CGI environment variables set: TMP=C:\Users\omarfs\AppData\Local\Temp\,TEMP=C:\Users\omarfs\AppData\Local\Temp\,TMPDIR=C:\Users\omarfs\AppData\Local\Temp\,PHPDESKTOP_VERSION=57.0
+- 01:36:52.016 INFO: Web server url: http://127.0.0.1:7788/
+- 01:36:52.016 INFO: remote_debugging_port = 51559
+- 01:36:52.016 DEBUG: Command line string for the browser process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --remote-debugging-port=51559
+- 01:36:52.094 DEBUG: App::OnContextInitialized()
+- 01:36:52.094 DEBUG: Window max width/height = 1286/680
+- 01:36:52.094 DEBUG: GetBrowserWindow(): not found, hwnd = 68002
+- 01:36:52.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:36:52.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:36:52.109 DEBUG: StoreBrowserWindow(): hwnd = 68002
+- 01:36:52.219 DEBUG: ClientHandler::OnAfterCreated()
+- 01:36:52.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:36:52.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:36:52.000 DEBUG: Command line string for the gpu-process process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4835 --gpu-driver-date=10-16-2017 --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --service-request-channel-token=1BBDC302349CDE7A1B57AE927105F39D --mojo-platform-channel-handle=1772 /prefetch:2
+- 01:36:52.000 DEBUG: Command line string for the renderer process: "C:\Users\omarfs\Desktop\desk top app for presnation\back\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D48ED4CD85403781EEA6C2191A2C4BE2 --lang=en-US --lang=en-US --log-file="C:\Users\omarfs\Desktop\desk top app for presnation\back\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D48ED4CD85403781EEA6C2191A2C4BE2 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0328/013652.686:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:36:52.078 DEBUG: OnBrowserCreated()
+[0328/013652.763:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0328/013652.763:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\omarfs\Desktop\desk top app for presnation\back\webcache\GPUCache to C:\Users\omarfs\Desktop\desk top app for presnation\back\webcache\old_GPUCache_000
+[0328/013652.763:ERROR:disk_cache.cc(132)] Unable to create cache
+[0328/013652.763:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0328/013652.766:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0328/013652.767:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\omarfs\Desktop\desk top app for presnation\back\webcache\Cache to C:\Users\omarfs\Desktop\desk top app for presnation\back\webcache\old_Cache_000
+[0328/013652.767:ERROR:disk_cache.cc(132)] Unable to create cache
+- 01:36:53.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:7788/
+- 01:36:56.937 DEBUG: WM_DESTROY
+- 01:36:56.937 DEBUG: RemoveBrowserWindow(): hwnd = 1312566
+- 01:36:56.937 INFO: Stopping Mongoose web server
+- 01:36:56.937 DEBUG: Mongoose webserver stopped immediately
+- 01:36:56.969 DEBUG: OnBeforeClose() hwnd=3344232
+- 01:36:56.969 DEBUG: RemoveBrowserWindow(): hwnd = 3344232
+- 01:36:56.969 DEBUG: GetBrowserWindow(): not found, hwnd = 3344232
+- 01:36:56.969 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:36:56.969 DEBUG: Calling CefQuitMessageLoop()
+- 01:36:56.031 INFO: Ended application
+- 01:36:56.031 INFO: --------------------------------------------------------
+- 01:36:57.156 DEBUG: WM_DESTROY
+- 01:36:57.156 DEBUG: RemoveBrowserWindow(): hwnd = 68002
+- 01:36:57.156 INFO: Stopping Mongoose web server
+- 01:36:57.156 DEBUG: Mongoose webserver stopped immediately
+- 01:36:57.172 DEBUG: OnBeforeClose() hwnd=68010
+- 01:36:57.172 DEBUG: RemoveBrowserWindow(): hwnd = 68010
+- 01:36:57.172 DEBUG: GetBrowserWindow(): not found, hwnd = 68010
+- 01:36:57.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:36:57.172 DEBUG: Calling CefQuitMessageLoop()
+- 01:36:57.234 INFO: Ended application
+- 01:36:57.234 INFO: --------------------------------------------------------

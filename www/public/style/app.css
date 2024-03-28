@@ -1,0 +1,11 @@
+
+.searchsection{
+    background-color: aqua;
+    padding: 1px;
+}
+
+.form_search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
